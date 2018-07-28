@@ -91,5 +91,5 @@ test:
 production:
   <<: *default
   database: snawar92_production
-  username: snawar92
-  password: <%= ENV['SNAWAR92_DATABASE_PASSWORD'] %>
+  username: pguser
+  password: pguser

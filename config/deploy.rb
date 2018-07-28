@@ -1,6 +1,6 @@
 
 # Change these
-server '172.31.35.44', port: 80, roles: [:web, :app, :db], primary: true
+server '18.222.200.122', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:Shahabranaa/weareddp.git'
 set :application,     'weareddp'
