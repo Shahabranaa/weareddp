@@ -91,5 +91,7 @@ test:
 production:
   <<: *default
   database: snawar92_production
+  host: localhost
   username: pguser
   password: pguser
+  timeout: 5000
